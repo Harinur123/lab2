@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dasar</title>
+<style>
+body {
+font-family:'Open Sans', sans-serif;
+}
+header {
+min-height: 80px;
+border-bottom:1px solid #77CCEF;
+}
+h1 {
+font-size: 24px;
+color: #0F189F;
+text-align: center;
+padding: 20px 10px;
+}
+h1 i {
+color:#6d6a6b;
+}
+</style>
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+<body>
+<header>
+<h1>CSS Internal dan <i>Inline CSS</i></h1>
+</header>
+<nav>
+<a href="lab2_css_dasar.html">CSS Dasar</a>
+<a href="lab2_css_eksternal.html">CSS Eksternal</a>
+<a href="lab1_tag_dasar.html">HTML Dasar</a>
+</nav>
+<!-- CSS ID Selector -->
+<div id="intro">
+<h1>Hello World</h1>
+<p style="text-align: center; color: #ccd8e4;">Saya Hari Nursabila sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
+Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
+dan CSS.</p>
+<!-- CSS Class Selector -->
+<a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
+<div class="content">
+	<h3>judul artikel</h3>
+	<p class="penulis">ditulis oleh<a href="#"> Hari Nursabila</a></p>
+	<p><b>apa itu css? Pengertian dan cara kerjanya</b>
+	CSS adalah bahasa Cascading style sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti html. css berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+	CSS dibuat dan dikembangkan oleh W3C pada tahun 1996 untuk alasan yang sederhana. dulu html tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. anda hanya perlu menulis markup untuk situs.
+	tags, seperti <font>, diperkenalkan di html versi 3.2, dan ketika itu menyebabkan banyak masalah developer. karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode memerlukan proses yang sangat panjang dan sulit. oleh sebab itu, w3C membuat css untuk menyelesaikan masalah ini,
+	html dan css memiliki keterikatan yang erat. karena html adalah bahasa markup (fondasi situs) dan css memperbaiki style (untuk semua aspek yang terkait dengan tampilan website), maka kedua bahasa pemograman ini harus berjalan beriringan</p>
+</div>
+</body>
+</html>
